@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+section{
+    position: relative;
+}
+section span{
+    transform: rotate(180deg);
+    position: absolute;
+    top: calc(100vh - 23.2em);
+    font-size: 20px !important;
+    z-index: 200;
+    right: 10px;
+    background-color: white;
+    padding: 6px;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+.col-lg-offset-1{
+    margin: 0 auto;
+}
+.loaderDiv{
+    text-align: center;
+    height: calc(100vh - 70%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: calc(100vh - 80%);
+    margin-top: -450px;
+}
+.loaderDiv img{
+    width:210px;
+}
+header img{
+    width:100%;
+}
+.container-fluid{
+    padding: 20px;
+}
+.colorBlue{
+    color:blue;
+}
+.container-fluid h3.nolocation{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.driverInfo{
+    margin: 20px 0;
+    box-shadow: 0 0 10px 2px #b1adad;
+}
+.driverInfo h3{
+    padding: 15px 0;
+}
+.table-bordered th, .table-bordered td{
+    border: 1px solid #1b1e21;
+}
+
+#map-canvas{
+    height: calc(100vh - 350px);
+    margin: 10px 0 0 0;
+    padding: 0;
+}
